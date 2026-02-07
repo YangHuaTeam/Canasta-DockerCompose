@@ -9,4 +9,4 @@
 !default.vcl
 !SettingsTemplate.php
 !LocalSettings.php
-!settings/*
+!settings/
