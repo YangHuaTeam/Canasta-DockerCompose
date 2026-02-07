@@ -8,3 +8,5 @@
 !Caddyfile.global
 !default.vcl
 !SettingsTemplate.php
+!LocalSettings.php
+!settings/*
