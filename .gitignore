@@ -5,3 +5,4 @@
 /extensions/*
 /skins/*
 /images/*
+!config/settings/global/*
