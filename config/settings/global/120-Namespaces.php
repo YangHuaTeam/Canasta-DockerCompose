@@ -18,9 +18,9 @@ $wgVisualEditorAvailableNamespaces = [
     "Project" => true,
 ];
 
-$wgContentNamespaces = [NS_MAIN, NS_PROJECT, NS_USER, NS_HELP];
+$wgContentNamespaces = [NS_MAIN, NS_PROJECT, NS_USER];
 $wgNamespacesWithSubpages[NS_MAIN] = true;
 $wgNamespacesWithSubpages[NS_TEMPLATE] = true;
-$wgNamespacesWithSubpages[NS_DRAFT] = true;
+// $wgNamespacesWithSubpages[NS_DRAFT] = true;
 $wgNamespacesWithSubpages[NS_HELP] = true;
 $wgAdvancedSearchHighlighting = true;
