@@ -109,7 +109,7 @@ services:
       - /var/lib/varnish:exec
     
   watchtower:
-    image: nicholasfedor/watchtower
+    image: nickfedor/watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
     command: --interval 86400 --cleanup
