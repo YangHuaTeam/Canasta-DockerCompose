@@ -11,5 +11,7 @@ https://{$MW_SITE_FQDN}:443 {
     respond @not_cloudflare 403
 
     import /etc/caddy/Caddyfile.custom
-    reverse_proxy varnish:80
+    reverse_proxy varnish:80 {
+        header_up X-Forwarded-For {http.request.header.CF-Connecting-IP}
+    }
 }
